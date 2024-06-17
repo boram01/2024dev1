@@ -3,8 +3,18 @@ package javaSample;
 public class TVUser {
 
 	public static void main(String[] args) {
-		System.out.println("test");
+//		LgTv  tv = new LgTv();
+		SamsungTv tv = new SamsungTv();
 
+//		tv.turnOn();
+//		tv.soundOn();
+//		tv.soundoff();
+//		tv.turnOff();
+		
+		tv.powerOn();
+		tv.volumeOn();
+		tv.volumeOff();
+		tv.volumeOff();
 	}
 
 }
